@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.alam4">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logodefined"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logodefined"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".forgot.reset"></activity>
+        <activity android:name=".forgot.code" />
+        <activity android:name=".firebase.firebase" />
+        <activity android:name=".reg.complete" />
+        <activity android:name=".groups.viewgroup" />
+        <activity android:name=".frontier.frontier" />
+        <activity android:name=".profile.viewprofile" />
+        <activity android:name=".groups.mygroups" />
+        <activity android:name=".add.addmembers" />
+        <activity android:name=".edit.editgroup" /> <!-- Firebase Notifications -->
+        <service android:name=".firebase.service.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service> <!-- ./Firebase Notifications -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/add" />
+
+        <activity android:name=".help.helpus" />
+        <activity android:name=".share.sharealert" />
+        <activity android:name=".edit.editalert" />
+        <activity android:name=".alerts.addalert" />
+        <activity android:name=".manage.managealerts" />
+        <activity android:name=".welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".each.activealerts" />
+        <activity android:name=".each.eachresponsegroup" />
+        <activity android:name=".notification.allnotifications" />
+        <activity android:name=".groups.responsegroup" />
+        <activity android:name=".joinresponse.joinrg" />
+        <activity android:name=".creategroup.creategroup" />
+        <activity android:name=".manage.manage" />
+        <activity android:name=".alerts.alerts" />
+        <activity android:name=".profile.profile" />
+        <activity android:name=".forgot.forgot" />
+        <activity
+            android:name=".main.dashboard"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".reg.register" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

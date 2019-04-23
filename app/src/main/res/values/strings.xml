@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">ALAM4</string>
+    <string name="hint_user_name">Phone No/ Huduma No/Alam4 ID</string>
+    <string name="hint_password">Password</string>
+    <string name="login_button">Login</string>
+    <string name="hint_forgot">Forgot Password?</string>
+    <string name="hint_register">Not yet a member? Get Registered in Alam4 Now!!</string>
+    <string name="title_activity_dashboard">dashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_firstname">Firstname</string>
+    <string name="hint_lastname">Lastname</string>
+    <string name="hint_huduma_no">Huduma No</string>
+    <string name="hint_user_id">User ID</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="hint_dob">D.O.B</string>
+    <string name="hint_location">Location</string>
+    <string name="login_submit">Submit</string>
+    <string name="hint_back_login">Already a member? Back to Login</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_back_login_forgot">Back to Login</string>
+    <string name="hint_recover">Enter your Phone number and we will send you Instructions on how to recover</string>
+    <string name="app_slogan">Ultimate Response Partner</string>
+    <string name="group_id">Enter Group ID</string>
+    <string name="hint_group_name">Set Group Name</string>
+    <string name="hint_con_password">Confirm Password</string>
+    <string name="hint_frontier">Select Frontier</string>
+    <string name="hint_level">Select Level</string>
+    <string name="hint_update">Enter Update Notes</string>
+    <string name="hint_group_name_update">Enter Group Name</string>
+    <string name="hint_cancel">Cancel</string>
+    <string name="hint_ok">OK</string>
+    <string name="hint_skip">Skip</string>
+    <string name="profile">Select a Profile Image</string>
+    <string name="hint_gallery">Gallery</string>
+    <string name="action_logout">Logout</string>
+    <string name="err_msg_name">Enter Name</string>
+    <string name="err_msg_email">Enter valid Emaill</string>
+    <string name="hint_name">Enter name</string>
+    <string name="hint_email">Enter Email</string>
+    <string name="msg_token_fmt">token</string>
+    <string name="hint_code">Enter the Code Sent to +2547...</string>
+    <string name="hint_code_no">Code</string>
+    <string name="hint_code_resend">Resend Code</string>
+    <string name="hint_new_pass">Enter your new password</string>
+
+</resources>

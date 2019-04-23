@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".reg.complete">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profile"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="20sp"/>
+        <RelativeLayout
+            android:id="@+id/cc"
+            android:layout_width="@dimen/profile_image_complete"
+            android:layout_height="@dimen/profile_image_complete"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="@dimen/profile_image_complete"
+                android:layout_height="@dimen/profile_image_complete"
+                android:padding="1dp"
+                app:civ_border_color="@color/colorPrimary"
+                app:civ_border_width="1dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/user" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/ic_menu_camera"
+                app:fabCustomSize="@dimen/fab_profile" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="handleCancel"
+            android:background="@drawable/btn_bg_edit"
+            android:text="@string/hint_skip" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="handleUpdate"
+            android:background="@drawable/btn_bg_edit"
+            android:text="@string/hint_ok" />
+    </LinearLayout>
+</RelativeLayout>

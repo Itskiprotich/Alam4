@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="animduration">800</integer>
+    <integer name="clb_anim_duration">2000</integer>
+    <integer name="card_flip_time_max">6000</integer>
+    <integer name="card_flip_time_full">3000</integer>
+    <integer name="card_flip_time_half">1500</integer>
+    <integer name="innerpadding">16</integer>
+</resources>
